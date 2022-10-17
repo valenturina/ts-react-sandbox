@@ -8,3 +8,6 @@ BRANCH
 git branch (-m, -d) <branch name> - создание ветки (переименование, удаление)
 git checkout -b <branch name> - создание и переход на ветку 
 git switch (-c) <branch name> - переход на ветку (без восстановления файлов)
+
+MERGE BRANCHES
+git merge <feature b name> - слияние текущей (receiving) и указанной (featured) ветки; комманда вводится из принимающей ветки (которая в продолжении разработки останется, а указанная ветка удалится)
